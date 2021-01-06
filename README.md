@@ -15,9 +15,10 @@ I did these things:
           </ul>
     </ul>
 </ul>
-http://github.com - test
-[GitHub](http://github.com)
-
+* Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
 <!--
 <ul>
   <li>Python</li>
