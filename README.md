@@ -15,7 +15,6 @@ I did these things:
           </ul>
     </ul>
 </ul>
-[I'm an inline-style link](https://www.google.com)
 
 <!--
 <ul>
