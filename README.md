@@ -16,6 +16,7 @@ I did these things:
     </ul>
 </ul>
 http://github.com - test
+[GitHub](http://github.com)
 
 <!--
 <ul>
