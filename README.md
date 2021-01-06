@@ -15,10 +15,8 @@ I did these things:
           </ul>
     </ul>
 </ul>
-* Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+[I'm an inline-style link](https://www.google.com)
+
 <!--
 <ul>
   <li>Python</li>
