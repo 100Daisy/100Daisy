@@ -29,4 +29,22 @@ git clone $REMOTE/kernel-msm-techpack-video techpack/video -b $TAG
 rm -rf techpack/video/.git
 git commit -m "techpack: Import video techpack" -m "REMOTE: $REMOTE" -m "TAG: $TAG"
 git clone $REMOTE/kernel-msm-techpack-camera techpack/camera -b $TAG
+rm -rf techpack/camera/.git
 git commit -m "techpack: Import camera techpack" -m "REMOTE: $REMOTE" -m "TAG: $TAG"
+git clone $REMOTE/vendor-qcom-opensource-audio-kernel techpack/audio -b $TAG
+rm -rf techpack/audio/.git
+git commit -m "techpack: Import audio techpack" -m "REMOTE: $REMOTE" -m "TAG: $TAG"
+
+# Vendor QCOM Opensource WLAN
+git clone $REMOTE/vendor-qcom-opensource-wlan-qcacld-3.0 drivers/staging/qcacld-3.0 -b $TAG
+rm -rf drivers/staging/qcacld-3.0/.git
+git add drivers/staging/qcacld-3.0
+git commit -m "drivers: staging: Import qcacld-3.0" -m "REMOTE: $REMOTE" -m "TAG: $TAG"
+git clone $REMOTE/vendor-qcom-opensource-wlan-fw-api drivers/staging/fw-api -b $TAG
+rm -rf drivers/staging/fw-api/.git
+git add drivers/staging/fw-api
+git commit -m "drivers: staging: Import fw-api" -m "REMOTE: $REMOTE" -m "TAG: $TAG"
+git clone $REMOTE/vendor-qcom-opensource-wlan-qca-wifi-host-cmn drivers/staging/qca-wifi-host-cmn -b $TAG
+rm -rf drivers/staging/qca-wifi-host-cmn/.git
+git add drivers/staging/qca-wifi-host-cmn
+git commit -m "drivers: staging: Import qca-wifi-host-cmn" -m "REMOTE: $REMOTE" -m "TAG: $TAG"
